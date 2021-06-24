@@ -1,3 +1,3 @@
-#homeworkwayup
+HOMEWORK WAY UP
 
 HTML5/CSS/JS
