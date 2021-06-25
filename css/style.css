@@ -9,7 +9,7 @@ h1{
 	margin-bottom: 100px;
 }
 
-#next{
+.next{
 	background: green;
 	color: #fff;
 	padding: 5px 5px;
@@ -19,7 +19,7 @@ span{
 	color:red;
 }
 
-#ymeniya{
+.ymeniya{
 	background: green;
 	color: #fff;
 	padding: 50px 50px;
