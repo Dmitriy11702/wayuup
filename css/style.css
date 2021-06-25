@@ -1,0 +1,39 @@
+h1{
+	color:red;
+}
+
+.text-header{
+	background: blue;
+	color: #fff;
+	width: 100px;
+	margin-bottom: 100px;
+}
+
+#next{
+	background: green;
+	color: #fff;
+	padding: 5px 5px;
+}
+
+span{
+	color:red;
+}
+
+#ymeniya{
+	background: green;
+	color: #fff;
+	padding: 50px 50px;
+}
+
+.text-ymeniya{
+	text-align: center;
+}
+
+.center{
+	width: 583px;
+}
+
+.list{
+	font-size: 36px;
+	border:2px solid;
+}
