@@ -1,35 +1,183 @@
-h1{
-	color:red;
+body{
+	margin: 0;
+	padding: 0;
 }
 
-.text-header{
-	background: blue;
+div, p, input, button, form. span, a, ul, li{
+	box-sizing: border-box;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: rgba(77,188,252,1);
+	background: -moz-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,188,252,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(77,188,252,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbcfc', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 45px;
+	color:#fff;
+}
+
+.offer{
+	margin-top: 140px;
+	width: 965px;
+}
+
+.wrapper{
+	display: flex;
+}
+
+.title span{
+	font-size: 56px;
+}
+
+.title{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 37px;
+}
+
+.intro{
+	font-size: 16px;
+	margin-bottom: 47px;
+	margin-top: 40px;
+	width: 400px;
+}
+
+.button{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 15px;
+	background: #ffd429;
+	text-decoration: none;
+	padding: 20px 0px;
+	display: block;
+	width: 222px;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.button:hover{
+	background: #f0c726;
+}
+
+.vpered{
+	padding-top: 105px;
+	padding-bottom: 115px;
+}
+
+.section-title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.icons-flex{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title-icons{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.ic-title{
+	margin-top: 27px;
+	margin-bottom: 14px;
+}
+
+.ticket{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #ecf3f8;
+}
+
+.ticket-title{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.input{
+	width: 343px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 2px;
+	height: 46px;
+	padding-left: 24px;
+	margin-bottom: 15px;
+}
+
+button{
+	border:0;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 15px;
+	background: #ffd429;
+	text-decoration: none;
+	height: 46px;
+	width: 370px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.form-flex{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.form-1{
+	display: flex;
+	justify-content: center;
+}
+
+.credits-text{
+	text-align: center;
+}
+
+.credits{
 	color: #fff;
-	width: 100px;
-	margin-bottom: 100px;
+	font-size: 14px;
+
 }
 
-.next{
-	background: green;
-	color: #fff;
-	padding: 5px 5px;
-}
-
-span{
-	color:red;
-}
-
-.ymeniya{
-	background: green;
-	color: #fff;
-	padding: 50px 50px;
-}
-
-.text-ymeniya{
-	margin-left: 70px;
-}
-
-.list{
-	font-size: 36px;
-	border:2px solid;
+.footer{
+	background: #164d7a;
+	padding-bottom: 53px;
+	padding-top: 60px;
 }
