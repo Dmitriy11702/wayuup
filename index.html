@@ -6,15 +6,16 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Сайт</title>
 </head>
 <body>
 	<header id="header" class="header">
 	 	<div class="container">
-	 		<img src="img/wayup.png" alt="logo: WayUp" class="logo">
+	 		<img src="img/wayup.png" alt="logo: WayUp" class="logo animated fadeInDown">
 <div class="wrapper">
-	 	<div class="offer">
+	 	<div class="offer animated fadeInLeft">
 	 		<h1 class="title">
 	 			С помощью верстки я создам ту жизнь, о которой
 	 			<span>мечтаю!</span>
@@ -22,42 +23,42 @@
 	 			<p class="intro">
 	 				Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
 	 			</p>
-	 		<a href="#" class="btn">
+	 		<a href="#vpered" class="btn" id="btn">
 	 			Двигаться к мечте
 	 		</a>
 	 	</div>
-			<img src="img/desktop.png" alt="img: desktop" class="desktop">
+			<img src="img/desktop.png" alt="img: desktop" class="desktop animated fadeInRight">
 </div>
 	 	</div>
 	</header>
 <section id="vpered" class="vpered">
 	<div class="container">
 			<h2 class="section-title">Что меня ждет впереди</h2>
-		<div class="icons-flex">
-			<div class="icons">
-				<img width="68" height="67" src="img/time.png" alt="" class="time">
-				<div class="ic-title">
+		<div class="icons-flex ">
+			<div class="icons animated">
+				<img width="68" height="67" src="img/time.png" alt="" class="time animated ">
+				<div class="ic-title animated">
 					<h3>Свободное время</h3>
 				</div>
-				<div class="flex-title-icons">
+				<div class="flex-title-icons animated">
 				<p class="title-icons"> Мне нужно свободное время на семью и самое настоящее</p>
 				</div>
 			</div>
 			<div class="icons">
-				<img width="56" height="66" src="img/beach.jpg" alt="" class="beach">
-				<div class="ic-title">
+				<img width="56" height="66" src="img/beach.jpg" alt="" class="beach animated">
+				<div class="ic-title animated">
 					<h3>Яркие путешествия</h3>
 				</div>
-				<div class="flex-title-icons">
+				<div class="flex-title-icons animated">
 				<p class="title-icons">Работать откуда угодно - что может быть лучше?</p>
 				</div>
 			</div>
 			<div class="icons">
-				<img width="35" height="69" src="img/launch.jpg" alt="" class="launch">
-				<div class="ic-title">
+				<img width="35" height="69" src="img/launch.jpg" alt="" class="launch animated">
+				<div class="ic-title animated">
 					<h3>Создание ценности</h3>
 				</div>
-				<div class="flex-title-icons">
+				<div class="flex-title-icons animated">
 				<p class="title-icons">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
 				</div>
 			</div>
@@ -70,7 +71,7 @@
 				<h2>Форма заказа билета в будущее</h2>
 			</div>
 			<div class="form-1">
-				<form action="#" class="form">
+				<form action="#" class="form animated">
 					<input type="name" placeholder="Имя" name="name" class="input"	required >
 					<input type="email" placeholder="E-mail" name="email" class="input"	required >
 					<input type="phone" placeholder="Телефон" name="phone" class="input"	required >
@@ -80,7 +81,6 @@
 			</div>
 		</div>
 	</section>
-
 	<footer id="footer" class="footer">
 		<div class="container">
 			<p class="credits">
@@ -88,5 +88,8 @@
 			</p>
 		</div>
 	</footer>
+<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+	
 </body>
 </html>
