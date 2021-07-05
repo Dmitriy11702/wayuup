@@ -89,3 +89,7 @@ $(function () {
 	});
 	})
 
+var btn = document.getElementById('btnn');
+btnn.onclick = function	() {
+		alert('Отправлено!')
+}
